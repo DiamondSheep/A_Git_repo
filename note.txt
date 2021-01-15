@@ -8,4 +8,5 @@ git reset <--hard> [HEAD^~] <git id>
 git reflog #show all the git ID you committed
 
 git tracks modifications instead of files
+git checkout -- <filename> #return to the file committed last time
 
