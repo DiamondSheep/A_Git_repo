@@ -3,3 +3,6 @@
 3\git commit -m <note>
 4\git status 
 5\git diff <filename>
+6\git log <--pretty=onrline>
+7\git reset <--hard> [HEAD^~] <git id>
+8\git reflog #show all the git ID you committed
