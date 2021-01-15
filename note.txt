@@ -15,4 +15,8 @@ github
 write ssh public key to github
 git remote add origin <your repo link> # add a remote repo
 git push -u origin master #push master branch to github
+git clone <repo link> #clone a git repo
+
+branch
+git checkout -b <branch_name>
 
