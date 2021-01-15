@@ -19,4 +19,4 @@ git clone <repo link> #clone a git repo
 
 branch
 git checkout -b <branch_name>
-
+= git branch + git checkout <branch_name>
