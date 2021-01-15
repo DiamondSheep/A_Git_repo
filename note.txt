@@ -8,5 +8,11 @@ git reset <--hard> [HEAD^~] <git id>
 git reflog #show all the git ID you committed
 
 git tracks modifications instead of files
-git checkout -- <filename> #return to the file committed last time
+git checkout -- <filename> #return to the file committed last time even if deleted
+git reset HEAD <filename> #reset file if added to stage but not committed
+
+github
+write ssh public key to github
+git remote add origin <your repo link> # add a remote repo
+git push -u origin master #push master branch to github
 
