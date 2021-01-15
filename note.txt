@@ -1,8 +1,11 @@
-1\只能跟踪文件的改动
-2\git add <filename> #add file to stage
-3\git commit -m <note> #commit stage to current branch
-4\git status #show status of git stage 
-5\git diff <filename>
-6\git log <--pretty=onrline>
-7\git reset <--hard> [HEAD^~] <git id>
-8\git reflog #show all the git ID you committed
+# A note record some commands about git
+git add <filename> #add file to stage
+git commit -m <note> #commit stage to current branch
+git status #show status of git stage 
+git diff <filename> #show recent modifications on a file
+git log <--pretty=onrline>
+git reset <--hard> [HEAD^~] <git id>
+git reflog #show all the git ID you committed
+
+git tracks modifications instead of files
+
