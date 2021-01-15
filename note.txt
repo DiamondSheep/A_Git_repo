@@ -1,5 +1,5 @@
 1\只能跟踪文件的改动
 2\git add <filename>
-3\git commit <actions>
+3\git commit -m <note>
 4\git status 
 5\git diff <filename>
