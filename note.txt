@@ -37,5 +37,16 @@ git stash  #save working directory [-list] # check stash list
 	git stash apply (should use `git stash drop` to drop the stash)
 	git stash pop
 git cherry-pick <branch_serial> #fix same bug in different branch
+git pull <remote> <branch>
+git remote -v # remote repo information
+git rebase 
 
-	
+>>>tag<<<
+git tag [-d] <tag_name> <commit id>
+git show <tag_name>
+#tags are taged to commits
+git push origin --tags
+
+>>>github<<<
+#fork a repo first, git clone from the repo forked, then pull request to author(contribute codes).
+
