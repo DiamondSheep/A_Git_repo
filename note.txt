@@ -21,9 +21,21 @@ git push -u origin master #push master branch to github
 git clone <github repo link> #clone a git repo
 
 >>>branch<<<
-git branch <branch_name> #create a branch
+git branch <branch_name> #create a branch [-d/-D] #delete a branch
 git checkout -b <branch_name>  =  git branch + git checkout <branch_name>
 git merge <branch_name> #merge branch to current branch
+	if conflict: modify current file and commit
+	--n-ff (no fast forward, generate a commit) -m <msg> <branch_name> 
 git switch [-c] <branch_name> #switch or create[-c] a branch
 
-It is master.
+>>>branching strategy<<<
+1.master branch should be stable
+2.work on dev branch
+
+>>>fix bug<<<
+git stash  #save working directory [-list] # check stash list
+	git stash apply (should use `git stash drop` to drop the stash)
+	git stash pop
+git cherry-pick <branch_serial> #fix same bug in different branch
+
+	
