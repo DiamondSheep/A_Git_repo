@@ -1,22 +1,25 @@
 # A note record some commands about git
+
 git add <filename> #add file to stage
 git commit -m <note> #commit stage to current branch
+
 git status #show status of git stage 
 git diff <filename> #show recent modifications on a file
 git log <--pretty=onrline>
 git reset <--hard> [HEAD^~] <git id>
 git reflog #show all the git ID you committed
 
-git tracks modifications instead of files
+#git tracks modifications instead of files
+
 git checkout -- <filename> #return to the file committed last time even if deleted
 git reset HEAD <filename> #reset file if added to stage but not committed
 
-github
-write ssh public key to github
-git remote add origin <your repo link> # add a remote repo
+>>>github<<<
+#write ssh public key to github
+git remote add origin <blank github repo link> # add a remote repo
 git push -u origin master #push master branch to github
-git clone <repo link> #clone a git repo
+git clone <github repo link> #clone a git repo
 
-branch
-git checkout -b <branch_name>
-= git branch + git checkout <branch_name>
+>>>branch<<<
+git checkout -b <branch_name>  =  git branch + git checkout <branch_name>
+
