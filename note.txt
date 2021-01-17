@@ -26,4 +26,4 @@ git checkout -b <branch_name>  =  git branch + git checkout <branch_name>
 git merge <branch_name> #merge branch to current branch
 git switch [-c] <branch_name> #switch or create[-c] a branch
 
-insert something
+It is dev.
